@@ -1,0 +1,8 @@
+[14-Sep-2023 18:08:35 UTC] PHP Warning:  require(database/conn.php): failed to open stream: No such file or directory in /home/tridennc/public_html/dev/admin/header.php on line 21
+[14-Sep-2023 18:08:35 UTC] PHP Warning:  require(database/conn.php): failed to open stream: No such file or directory in /home/tridennc/public_html/dev/admin/header.php on line 21
+[14-Sep-2023 18:08:35 UTC] PHP Fatal error:  require(): Failed opening required 'database/conn.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/tridennc/public_html/dev/admin/header.php on line 21
+[14-Sep-2023 18:23:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tridennc/public_html/dev/admin/category.php on line 238
+[22-Sep-2023 07:24:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/tridennc/public_html/dev/admin/products.php on line 341
+[22-Sep-2023 07:25:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/tridennc/public_html/dev/admin/products.php on line 341
+[22-Sep-2023 07:25:12 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/tridennc/public_html/dev/admin/products.php on line 341
+[22-Sep-2023 07:27:58 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/tridennc/public_html/dev/admin/products.php on line 341
