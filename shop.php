@@ -44,13 +44,26 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(270deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("/images/Africa1.jpeg");
+    background: linear-gradient(270deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
     background-size: cover;
     
 }
 .shop-place-me{
     position: absolute;
 
+}
+
+.home-border {
+    padding: 10px;
+    /*width: 5px;*/
+    /*height: 102px;*/
+    border-color:  #CCBAAA;
+    border-top: 2px solid #CCBAAA ;
+    border-left: 2px solid #CCBAAA ;
+    border-right: 2px solid #CCBAAA ;
+    border-radius: 15px;
+    cursor:default;
+    opacity: 1;
 }
     </style>
 
