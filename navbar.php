@@ -14,8 +14,8 @@
         <div class="navbar-nav ms-auto px-3 py-3 py-lg-0 ml-5 text-white">
 
             <a href="home.php" id="navHome" class="nav-item nav-link text-white" style="padding: 10px 20px">Ceramica</a>
-            <div class="nav-item dropdown">
-                <a href="shop.php" id="navShop" class="nav-link  text-white" style="padding: 10px 20px"
+            <!-- <div class="nav-item "> -->
+                <a href="shop.php" id="navShop" class="nav-item nav-link text-white" style="padding: 10px 20px"
                 >Shop</a>
                 <!-- <div class="dropdown-menu bg-light m-0">
                     <a href="products.php" class="dropdown-item">Products </a>
@@ -25,16 +25,16 @@
                     <a href="Stains.php" class="dropdown-item">Stains</a>
                     <a href="Others.php" class="dropdown-item">Others</a>
                 </div> -->
-            </div>
-            <div class="nav-item dropdown">
-                <a href="class.php" id="navShop" class="nav-link  text-white" style="padding: 10px 20px"
+            <!-- </div> -->
+            <!-- <div class="nav-item dropdown"> -->
+                <a href="class.php" id="navShop" class="nav-item nav-link text-white" style="padding: 10px 20px"
                 >Classes</a>
                 <!-- <div class="dropdown-menu bg-light m-0">
                     <a href="ongoing-classes.php" class="dropdown-item">On-going Pottery Class </a>
                     <a href="book-class.php" class="dropdown-item">Book a Class</a>
                     
                 </div> -->
-            </div>
+            <!-- </div> -->
             
             <a href="about_us.php" id="navAbout" class="nav-item nav-link text-white" style="padding: 10px 20px">
             About Us</a>

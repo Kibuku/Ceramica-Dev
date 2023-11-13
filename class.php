@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
-            <link href="https://fonts.gstatic.com" rel="preconnect"/>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-                rel="stylesheet"/>
-                <link rel="stylesheet" href="public/fonts/icomoon/style.css">
+    
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet">
 
-<link rel="stylesheet" href="css2/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="css2/bootstrap.min.css">
-
-<!-- Style -->
-<link rel="stylesheet" href="css2/style.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/styles.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/animate.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/owl-carousel.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/lightbox.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/products.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/slick-slider.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/loader.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/date.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
 </head>
 <body>
     <style>
@@ -66,6 +72,10 @@
     cursor:default;
     opacity: 1;
 }
+.home-border:hover{
+    background-color: #CCBAAA;
+
+}
     </style>
 <div class="classes-page-container">
             
@@ -74,17 +84,18 @@
             <div class="classes-hero"></div>
             <div class="classes-backdrop">
 
-                <div class="container h-100 w-100 bg-dark">
+                <div class="container h-100 w-100 ">
 
-                    <div class="d-flex mt-5 justify-content-center align-items-center h-100  bg-danger" style="padding-top:10%">
+                    <div class="d-flex mt-5 justify-content-center align-items-center h-100  " style="padding-top:10%">
 
-                    <div class="col-lg-3 align-items-end align-self-end" data-wow-delay="0.3s">
-                        <a class="btn btn-secondary py-3 px-5 justify-content-center align-items-center home-border " href="classwork.php"> Book a Class </a>  </div>
-                        <!-- <div
-                            class="col-lg-3  text-white  h6 text-uppercase py-4 home-border 
-                            d-flex justify-content-center align-items-center" >Book a Class
-                        </div> -->
-                    </div>
+                    
+                         <div class="col-lg-3 text-white h6 text-uppercase py-2 home-border 
+                            d-flex justify-content-center align-items-center" data-wow-delay="0.3s">
+                            <a class=" btn py-3 px-5 justify-content-center align-items-center text-white"
+                         href="classwork.php"> Book a Class </a> 
+                            
+                        </div>
+                    
 
                 </div>
             </div>

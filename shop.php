@@ -4,68 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
-            <link href="https://fonts.gstatic.com" rel="preconnect"/>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-                rel="stylesheet"/>
-                <link rel="stylesheet" href="public/fonts/icomoon/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet">
 
-<link rel="stylesheet" href="css2/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="css2/bootstrap.min.css">
-
-<!-- Style -->
-<link rel="stylesheet" href="css2/style.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/styles.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/animate.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/owl-carousel.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/lightbox.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/products.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/slick-slider.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/loader.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/date.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
 </head>
 <body>
-    <style>
-        /* .shop-backdrop {
-    position: absolute;
-    /* top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; 
-    background-color: rgba(16, 21, 44,0.6);
-    z-index: 1;
-} */
-.shop-container{
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Prevent scrolling */
-}
-.shop-hero {
-    
-    position: fixed; /* Fixed positioning */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(270deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
-    background-size: cover;
-    
-}
-.shop-place-me{
-    position: absolute;
+<style>
+            /* .shop-backdrop {
+        position: absolute;
+        /* top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0; 
+        background-color: rgba(16, 21, 44,0.6);
+        z-index: 1;
+    } */
+    .shop-container{
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent scrolling */
+    }
+    .shop-hero {
+        
+        position: fixed; /* Fixed positioning */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(270deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
+        background-size: cover;
+        
+    }
+    .shop-place-me{
+        position: absolute;
 
-}
+    }
 
-.home-border {
-    padding: 10px;
-    /*width: 5px;*/
-    /*height: 102px;*/
-    border-color:  #CCBAAA;
-    border-top: 2px solid #CCBAAA ;
-    border-left: 2px solid #CCBAAA ;
-    border-right: 2px solid #CCBAAA ;
-    border-radius: 15px;
-    cursor:default;
-    opacity: 1;
-}
-    </style>
+    .home-border {
+        padding: 10px;
+        /*width: 5px;*/
+        /*height: 102px;*/
+        border-color:  #CCBAAA;
+        border-top: 2px solid #CCBAAA ;
+        border-left: 2px solid #CCBAAA ;
+        border-right: 2px solid #CCBAAA ;
+        border-radius: 15px;
+        cursor:default;
+        opacity: 1;
+    }
+</style>
 
 <div class="shop-backdrop" >
 
