@@ -39,7 +39,7 @@
             <a href="about_us.php" id="navAbout" class="nav-item nav-link text-white" style="padding: 10px 20px">
             About Us</a>
 
-            <a href="contact-us2.php" id="navContact" class="nav-item nav-link text-white" style="padding: 10px 20px">
+            <a href="contact.php" id="navContact" class="nav-item nav-link text-white" style="padding: 10px 20px">
             Contact us</a>
             <a href="" class="nav-item nav-link" style="padding: 10px 20px">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
@@ -55,7 +55,7 @@
                 let thePath = window.location.pathname;
                 const lastItem = thePath.substring(thePath.lastIndexOf('/') + 1);
                 
-                if (lastItem == "contact-us2.php") {
+                if (lastItem == "contact.php") {
                     document.getElementById("navContact").classList.add("active");
                    
                     document.getElementById("navAbout").classList.remove("active");

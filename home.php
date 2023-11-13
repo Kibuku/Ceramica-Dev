@@ -108,25 +108,33 @@
 
 
                         <div class="row mt-5 h-80 w-50 justify-content-center" style = "margin-right:5%" >
+                          
+                        
                             <div
                                 class=" col-lg-5 text-white h6 py-3 my-3 home-border d-flex align-items-center justify-content-center" 
-                                >SHOP
+                                >
+                                <a class="btn py-3 px-5 justify-content-center align-items-center text-white" 
+                                href="shop.php"> SHOP </a>
                             </div>
                             <div class="col-lg-1 mx-1"></div>
                             <div
-                                class="col-lg-5 text-white h6 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
-                                >CLASSES
+                                class="col-lg-5 text-white h6 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center">
+                                <a class="btn  py-3 px-5 justify-content-center align-items-center text-white" 
+                                href="class.php"> CLASSES </a>
                             </div>
 
                             <div class=" my-3"></div>
                             <div
                                 class="col-lg-5 text-white h6 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
-                                >ABOUT US
+                                >
+                                <a class="btn  py-3 px-5 justify-content-center align-items-center text-white" 
+                                href="about_us.php"> ABOUT US </a>
                             </div>
                             <div class="col-lg-1 mx-1"></div>
                             <div
                                 class="col-lg-5 text-white h6 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
-                                >CONTACT US
+                                ><a class="btn  py-3 px-5 justify-content-center align-items-center text-white" 
+                                href="contact.php"> CONTACT US </a>
                             </div>
                         </div>
 
