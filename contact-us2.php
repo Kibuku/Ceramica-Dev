@@ -65,7 +65,7 @@
 }
     </style>
 <div class="contact-backdrop-contact">
-            <NavBarMobile/>
+<?php include 'navbar.php'; ?>
             <div class="contact-hero"></div>
 
             <div class="container h-100 ">

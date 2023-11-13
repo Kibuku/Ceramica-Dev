@@ -69,7 +69,7 @@
     </style>
 <div class="classes-page-container">
             
-            <NavBarMobile/>
+<?php include 'navbar.php'; ?>
 
             <div class="classes-hero"></div>
             <div class="classes-backdrop">
@@ -77,11 +77,13 @@
                 <div class="container h-100 w-100 bg-dark">
 
                     <div class="d-flex mt-5 justify-content-center align-items-center h-100  bg-danger" style="padding-top:10%">
-                        
-                        <div
+
+                    <div class="col-lg-3 align-items-end align-self-end" data-wow-delay="0.3s">
+                        <a class="btn btn-secondary py-3 px-5 justify-content-center align-items-center home-border " href="classwork.php"> Book a Class </a>  </div>
+                        <!-- <div
                             class="col-lg-3  text-white  h6 text-uppercase py-4 home-border 
                             d-flex justify-content-center align-items-center" >Book a Class
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
