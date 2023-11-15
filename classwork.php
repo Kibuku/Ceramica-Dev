@@ -23,20 +23,20 @@
             crossorigin="anonymous"></script>
 
     <!-- Bootstrap core CSS -->
-    <!--    <link href="vendor/bootstrap/css/bootstrap.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"-->
-    <!--          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
-    <!--    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>-->
+       <link href="vendor/bootstrap/css/bootstrap.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+             integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
     <!-- Bootstrap core CSS -->
-    <!--    <link href="css/styles.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--        <link href="css/animate.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--        <link href="css/owl-carousel.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--        <link href="css/lightbox.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--    <link href="css/products.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--    <link href="css/slick-slider.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--    <link href="css/loader.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
-    <!--    <link href="css/date.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+       <link href="css/styles.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
+           <link href="css/animate.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
+           <link href="css/owl-carousel.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">
+           <link href="css/lightbox.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
+       <link href="css/products.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
+       <link href="css/slick-slider.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
+       <link href="css/loader.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
+       <link href="css/date.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
 
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
 </head>
@@ -55,7 +55,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 170%;
+        height: 190%;
         z-index: 0;
         /* background-image: url('/images/35.jpg'); */
         background: linear-gradient(360deg, #0101024D 0%, #010101 54%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
@@ -102,9 +102,7 @@
         <div id='calendar' class="calender_container"></div>
     </div>
 
-    <button id="openModalBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-    </button>
+    
 
 
     <!-- Modal -->

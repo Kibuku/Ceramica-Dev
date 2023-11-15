@@ -44,7 +44,7 @@
 
         <div class=" col-7 w-100 ml-5 zoom">
 
-            <a href="index.php"><img src="img/logo_text.png" alt="ceramica" style="height:150px"/></a>
+            <a href="index.php"><img src="img/logo_text.png" alt="ceramica" style="height:200px"/></a>
         </div>
 
         <div id="product-wrapper">
