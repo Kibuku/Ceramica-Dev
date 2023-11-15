@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ceramica</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet">
@@ -26,7 +26,7 @@
 </head>
 </head>
 <body>
-    <style>
+<style>
     /*.home-backdrop {
     position: fixed;
     top: 0;
@@ -35,77 +35,67 @@
     left: 0;
     background: transparent linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box;
     z-index: 1;
-}*/
-.home-hero {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
-    background-position: 0%;
-    background-size: cover;
-}
+    }*/
+    .home-hero {
+        position: fixed; /* Fixed positioning */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(270deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
+        background-size: cover;
+        z-index: inherit;
+    }
 
 
-.home-container1 {
-    display: flex;
-    padding-top: 100px;
-    /*padding-left: 500px;*/
+    .home-container1 {
+        display: flex;
+        padding-top: 100px;
+        /*padding-left: 500px;*/
 
-    align-items: end;
-    width: 40%;
-    /*height: 100px;*/
-    position: relative;
-    opacity: 100%;
-}
+        align-items: end;
+        width: 40%;
+        /*height: 100px;*/
+        position: relative;
+        opacity: 100%;
+    }
 
-.home-container2 {
-    display: flex;
+    .home-container2 {
+        display: flex;
 
-    align-items: center;
-    float: left;
-    width: 33.33%;
-    padding: 10px;
+        align-items: center;
+        float: left;
+        width: 33.33%;
+        padding: 10px;
 
-    /* align-items: center; */
-    position: relative;
+        /* align-items: center; */
+        position: relative;
 
-}
+    }
 
-.home-border {
-    padding: 10px;
-    /*width: 5px;*/
-    /*height: 102px;*/
-    border-color:  #CCBAAA;
-    border-top: 2px solid #CCBAAA ;
-    border-left: 2px solid #CCBAAA ;
-    border-right: 2px solid #CCBAAA ;
-    border-radius: 15px;
-    cursor:default;
-    opacity: 1;
-}
-.home-border:hover{
-    background-color: #CCBAAA;
+    .home-border {
+        padding: 10px;
+        /*width: 5px;*/
+        /*height: 102px;*/
+        border-color:  #CCBAAA;
+        border-top: 2px solid #CCBAAA ;
+        border-left: 2px solid #CCBAAA ;
+        border-right: 2px solid #CCBAAA ;
+        border-radius: 15px;
+        cursor:default;
+        opacity: 1;
+    }
+    .home-border:hover{
+        background-color: #CCBAAA;
 
-}
-.zoom {
-    padding: 0px;
-    /* background-color: black; */
-    transition: transform .2s; /* Animation */
-    /* width: 200px;
-    height: 200px; */
-    margin: 0 auto;
-  }
+    }
+    
   
-  .zoom:hover {
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-    </style>
-<div>
+</style>
+        <div>
 
-            <?php include 'navbar.php'; ?>
-            <div class="home-hero ">
+        <?php include 'navbar.php'; ?>
+            <div class="home-hero">
                 <div class=" container h-100  align-self-end  ">
 
                     <div class="h-100  w-100 d-flex justify-content-end align-items-center  ">
@@ -145,6 +135,9 @@
                     </div>
                 </div>
             </div>
+            <?php require_once 'footer.php'; ?>
         </div>
+        
 </body>
+
 </html>
