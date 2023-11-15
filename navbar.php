@@ -57,7 +57,7 @@
                 let thePath = window.location.pathname;
                 const lastItem = thePath.substring(thePath.lastIndexOf('/') + 1);
                 
-                if (lastItem == "contact.php") {
+                if (lastItem === "contact.php") {
                     document.getElementById("navContact").classList.add("active");
                    
                     document.getElementById("navAbout").classList.remove("active");
@@ -68,7 +68,7 @@
                     
                 }
 
-                if (lastItem == "about_us.php") {
+                if (lastItem === "about_us.php") {
                     document.getElementById("navAbout").classList.add("active");
 
                     document.getElementById("navContact").classList.remove("active");                   
@@ -79,7 +79,7 @@
                 }
 
 
-                if (lastItem == "home.php") {
+                if (lastItem === "home.php") {
                     document.getElementById("navHome").classList.add("active");
 
                     document.getElementById("navContact").classList.remove("active");                   
@@ -88,7 +88,7 @@
                     document.getElementById("navAbout").classList.remove("active");
                 }
 
-                if (lastItem == "shop.php") {
+                if (lastItem === "shop.php") {
                     document.getElementById("navShop").classList.add("active");
                    
                     document.getElementById("navContact").classList.remove("active");                   
@@ -98,7 +98,7 @@
 
                 }
 
-                if (lastItem == "class.php") {
+                if (lastItem === "class.php") {
                     document.getElementById("navClass").classList.add("active");
 
                     document.getElementById("navContact").classList.remove("active");

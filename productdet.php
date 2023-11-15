@@ -13,19 +13,19 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<!--    <link href="vendor/bootstrap/css/bootstrap.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+<!--    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>-->
 
     <!-- Bootstrap core CSS -->
-    <link href="css/styles.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link href="css/animate.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link href="css/owl-carousel.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link href="css/lightbox.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link href="css/products.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link href="css/slick-slider.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link href="css/loader.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
-    <link href="css/date.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+<!--    <link href="css/styles.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link href="css/animate.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link href="css/owl-carousel.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link href="css/lightbox.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link href="css/products.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link href="css/slick-slider.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link href="css/loader.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
+<!--    <link href="css/date.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">-->
 </head>
 <body>
 <style>
@@ -52,6 +52,7 @@
         left: 0;
         width: 100%;
         height: 100%;
+        z-index: 0;
         background: linear-gradient(270deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
         background-size: cover;
         
@@ -73,11 +74,13 @@
         cursor:default;
         opacity: 1;
     }
-    
+
+
 </style>
+<?php include 'navbar_2.php'; ?>
 <div class="shop-backdrop" >
 
-    <?php include 'navbar.php'; ?>
+
         <div class="shop-hero" ></div>
         <div class=" float-left w-100">
         <div class="container">
@@ -125,14 +128,14 @@
                             Ceramic Vase
                             </h4>
                             <div class="description text-white">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Donec quis viverra purus, non viverra nulla. 
-                                Sed vehicula libero eu lectus eleifend volutpat. 
-                                Sed et placerat arcu. Proin mi leo, interdum eu tortor at, 
-                                euismod gravida velit. Fusce non enim lectus. Duis euismod, 
-                                lorem vitae pharetra rhoncus, ligula risus elementum nunc, 
-                                at interdum eros nunc eget augue. Donec dapibus nec diam ut tempor. 
-                                Duis malesuada neque turpis, ut congue ipsum euismod eget. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec quis viverra purus, non viverra nulla.
+                                Sed vehicula libero eu lectus eleifend volutpat.
+                                Sed et placerat arcu. Proin mi leo, interdum eu tortor at,
+                                euismod gravida velit. Fusce non enim lectus. Duis euismod,
+                                lorem vitae pharetra rhoncus, ligula risus elementum nunc,
+                                at interdum eros nunc eget augue. Donec dapibus nec diam ut tempor.
+                                Duis malesuada neque turpis, ut congue ipsum euismod eget.
                                 Sed egestas ipsum enim, sed semper magna auctor non.
                             </div>
                             <div class="rating">
@@ -146,10 +149,10 @@
                                 <!-- <a href="#" class="review-down ">(customer reviews)</a> -->
 
                             </div>
-                            
+
                             <div class="price float-left w-100 d-flex text-white mt-2">
                                 <div class="regular-price">KES 1000.00</div>
-                                 
+
                             </div>
                             <div class="product-variants float-left w-100">
                                 <div class="col-md-3 col-sm-2 col-xs-12 mt-2 size-options d-flex align-items-center text-white">
@@ -182,7 +185,7 @@
                                 <h6>Quantity:</h6>
                                 <input value="1" type="number">
                                 <button type="button" class="btn btn-secondary btn-cart text-centre ml-5" data-target="#cart-pop" data-toggle="modal">
-                                    <i class="material-icons">shopping_cart</i> 
+                                    <i class="material-icons">shopping_cart</i>
                                     Add To Cart
                                 </button>
                             </div>
@@ -212,17 +215,17 @@
                                 </svg>
                             </div>
                         </div>
-                            
+
                         </div>
 
                     </div>
             </div>
         </div>
     </div>
-                    
 
-                        
-                            
+
+
+
 </div>
                 
                

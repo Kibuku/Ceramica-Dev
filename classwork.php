@@ -42,13 +42,14 @@
 </head>
 <body>
 <style>
-    .classes-page-containers{
+    .classes-page-containers {
         height: 100vh;
         width: 100vw;
         margin: 0;
         padding: 0;
         overflow: hidden; /* Prevent scrolling */
     }
+
     .book-hero {
         position: absolute; /* Fixed positioning */
         top: 0;
@@ -61,9 +62,10 @@
         background-size: cover;
 
     }
-    #calender_wrapper{
+
+    #calender_wrapper {
         z-index: 10;
-        position:relative;
+        position: relative;
         background-color: #FFFFFF;
         padding: 10px;
     }
@@ -94,7 +96,7 @@
 </script>
 <?php include 'navbar.php'; ?>
 <div class="classes-page-container">
-    
+
     <div class="book-hero"></div>
     <div id="calender_wrapper" class="container align-content-center justify-content-center ">
         <div id='calendar' class="calender_container"></div>
@@ -106,7 +108,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel"
          aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -117,54 +120,60 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    
+
                     <form>
                         <div class="row">
                             <div class="col-md">
-                                        <p class="text-center h6 text-uppercase">
-                                            <b>Booking Details</b>
-                                            <hr>
-                                        </p>
-                                        <div class="row">
-                                            <div class="col-sm-4">Amount(USD)</div>
-                                            <div class="col-sm">$20</div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-4">Description</div>
-                                            <div class="col-sm text-justify">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-4">Location</div>
-                                            <div class="col-sm">Gong road</div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-4">Number of people</div>
-                                            <div class="col-sm">20</div>
-                                        </div>
-                                    
+                                <p class="text-center h6 text-uppercase">
+                                    <b>Booking Details</b>
+                                <hr>
+                                </p>
+                                <div class="row">
+                                    <div class="col-sm-4">Amount(USD)</div>
+                                    <div class="col-sm">$20</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">Description</div>
+                                    <div class="col-sm text-justify">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book.
+                                        It has survived not only five centuries, but also the leap into electronic
+                                        typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s with the release of Letraset sheets containing
+                                        Lorem Ipsum passages, and more recently with desktop publishing software like
+                                        Aldus PageMaker including versions of Lorem Ipsum.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">Location</div>
+                                    <div class="col-sm">Gong road</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">Number of people</div>
+                                    <div class="col-sm">20</div>
+                                </div>
+
                             </div>
                             <div class="col-md-5">
-                                    <p class="text-center h6 text-uppercase">
-                                        <b>Personal Details</b>
-                                        <hr>
-                                    </p>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="First Name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Last Name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Phone"  pattern='[0-9]{10}' title='Format: 0701234567' required>
-                                    </div>
+                                <p class="text-center h6 text-uppercase">
+                                    <b>Personal Details</b>
+                                <hr>
+                                </p>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="First Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Last Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Phone" pattern='[0-9]{10}'
+                                           title='Format: 0701234567' required>
+                                </div>
                             </div>
                         </div>
                         <!--<button type="submit" class="btn btn-primary">Submit</button>-->
