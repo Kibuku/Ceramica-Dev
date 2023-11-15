@@ -1,6 +1,6 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top px-4 px-lg-5 py-lg-0">
-    <a href="home.php" class="navbar-brand d-flex align-self-end bg-transparent  " style="transform: scale(1.2);">
+    <a href="index.php" class="navbar-brand d-flex align-self-end bg-transparent  " style="transform: scale(1.2);">
         <h1 class="">
             <!-- <i class="fa fa-building text-primary me-3"></i> -->
             <img src="img/logo_text.png" style="height: 150px;">
@@ -14,7 +14,7 @@
         <div class="navbar-nav ms-auto px-3 py-3 py-lg-0 ml-5 text-white">
             
 
-            <a href="home.php" id="navHome" class="nav-item nav-link text-white" style="padding: 10px 20px">Ceramica</a>
+            <a href="index.php" id="navHome" class="nav-item nav-link text-white" style="padding: 10px 20px">Ceramica</a>
             <!-- <div class="nav-item "> -->
                 <a href="shop.php" id="navShop" class="nav-item nav-link text-white" style="padding: 10px 20px"
                 >Shop</a>
