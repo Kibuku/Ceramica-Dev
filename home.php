@@ -98,11 +98,12 @@
             <div class="home-hero">
                 <div class=" container h-100  align-self-end  ">
 
-                    <div class="h-100  w-100 d-flex justify-content-end align-items-center  ">
-                        <div class="row mt-5 h-80 w-50 justify-content-center" style = "margin-right:5%">
+                    <div class="h-100  w-100 d-flex justify-content-end align-items-center">
+                            
+                        <div class=" row mt-5 h-80 w-50 justify-content-center" style = "margin-right:5%">
+                            
                         
-                            <div
-                                class=" col-lg-5  h6 py-2 my-3 home-border d-flex align-items-center 
+                            <div class=" col-lg-5  h6 py-2 my-3 home-border d-flex align-items-center 
                                 justify-content-center" data-wow-delay="0.3s">
                                 <a class="btn py-3 px-5 justify-content-center align-items-center text-white" 
                                 href="shop.php"> SHOP </a>
@@ -130,6 +131,9 @@
                                 href="contact.php"> CONTACT US </a>
                             </div>
                         </div>
+                            
+                        
+                    </div>
 
 
                     </div>
