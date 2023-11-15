@@ -94,7 +94,7 @@
     });
 
 </script>
-<?php include 'navbar.php'; ?>
+<?php include 'navbar_2.php'; ?>
 <div class="classes-page-container">
 
     <div class="book-hero"></div>

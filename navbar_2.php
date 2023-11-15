@@ -31,7 +31,7 @@
         /*z-index: 10;*/
         position: relative;
 
-        padding: 10px;
+        padding: 5px;
     }
 
     .modal-backdrop {
@@ -42,9 +42,9 @@
 <header id="header" class="header sticky-top d-flex align-items-center ">
     <div class="  d-flex align-items-center justify-content-centre ">
 
-        <div class=" col-10 w-100 ml-5 zoom">
+        <div class=" col-7 w-100 ml-5 zoom">
 
-            <a href="/"><img src="img/logo_text.png" alt="ceramica" style="height:200px"/></a>
+            <a href="index.php"><img src="img/logo_text.png" alt="ceramica" style="height:150px"/></a>
         </div>
 
         <div id="product-wrapper">
@@ -70,10 +70,10 @@
                 <i id="showNav" class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <button id="openModalBtn2" type="button" class="btn btn-primary" data-toggle="modal"
+            <!-- <button id="openModalBtn2" type="button" class="btn btn-primary" data-toggle="modal"
                     data-target="#exampleModal2" data-backdrop="false">
                 Launch demo modal
-            </button>
+            </button> -->
 
 
         </div>
@@ -89,7 +89,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <!-- <div class="modal-body">
                         <div>
                             <div id="modalCartDetails">
                                 <div id="modalCartClose" class="float-right mb-5">
@@ -195,13 +195,13 @@
                         </div>
 
 
-                    </div>
-                    <div class="modal-footer">
+                    </div> -->
+                    <!-- <div class="modal-footer">
                         <button id="modalCartCloseFooter" type="button" class="btn btn-secondary" data-dismiss="modal">
                             Close
                         </button>
                         <button id="modalCartCheckoutFooter" type="button" class="btn">checkout</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

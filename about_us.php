@@ -72,7 +72,7 @@
 }
     </style>
     <div class="about-backdrop">
-    <?php include 'navbar.php'; ?>
+    <?php include 'navbar_2.php'; ?>
         <div class="about-hero"></div>
         <div class="about-container ">
     

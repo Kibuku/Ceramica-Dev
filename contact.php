@@ -71,7 +71,7 @@
 }
     </style>
 <div class="contact-backdrop-contact">
-<?php include 'navbar.php'; ?>
+<?php include 'navbar_2.php'; ?>
             <div class="contact-hero"></div>
 
             <div class="container h-100 ">

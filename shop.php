@@ -76,7 +76,7 @@
 </style>
         <!-- Navigation-->
         <div class="shop-backdrop" >
-        <?php include 'navbar.php'; ?>
+        <?php include 'navbar_2.php'; ?>
             <div class="shop-hero" ></div>
                     
                     <div class="container h-100 " >
