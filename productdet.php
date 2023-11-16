@@ -94,7 +94,7 @@
                                 <a href="img/36.jpg"><img src="img/36.jpg" class="img-fluid" alt=""></a>
                             </div>
                             <div class="single-img">
-                                <a href="img/cup and sugar bowls.png"><img src="img/cup and sugar bowls.png" class="img-fluid" alt=""></a>
+                                <a href="img/IMG_6570"><img src="img/cup and sugar bowls.png" class="img-fluid" alt=""></a>
                             </div>
                             <div class="single-img">
                                 <a href="img/IMG_6385.jpg"><img src="img/IMG_6385.jpg" class="img-fluid" alt=""></a>
@@ -112,7 +112,7 @@
                                 <img src="img/36.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="single-small-image img-full">
-                                <img src="img/cup and sugar bowls.png" class="img-fluid" alt="">
+                                <img src="img/IMG_6570.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="single-small-image img-full">
                                 <img src="img/IMG_6385.jpg" class="img-fluid" alt="">

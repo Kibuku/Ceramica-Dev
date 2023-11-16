@@ -58,7 +58,7 @@
         height: 190%;
         z-index: 0;
         /* background-image: url('/images/35.jpg'); */
-        background: linear-gradient(360deg, #0101024D 0%, #010101 54%) 0% 0% no-repeat padding-box, url("img/back.jpeg");
+        background: linear-gradient(180deg, #0101024D 0%, #010101 54%) 0% 0% no-repeat padding-box, url("img/back.jpeg");
         background-size: cover;
 
     }
@@ -66,8 +66,10 @@
     #calender_wrapper {
         z-index: 10;
         position: relative;
-        background-color: #FFFFFF;
+        background-color: #fff;
+        opacity: 70%;
         padding: 10px;
+        border-radius: 10px;
     }
 </style>
 <script>

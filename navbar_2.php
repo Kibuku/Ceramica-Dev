@@ -26,7 +26,7 @@
         /*z-index: 10;*/
         position: relative;
 
-        padding: 5px;
+        padding: 0px;
     }
 
     .modal-backdrop {
@@ -37,15 +37,15 @@
 <header id="header" class="header sticky-top d-flex align-items-center ">
     <div class="  d-flex align-items-center justify-content-centre ">
 
-        <div class=" col-7 w-100 ml-5 zoom">
+        <div class=" col-7 w-100 ml-2">
 
-            <a href="index.php"><img src="img/logo_text.png" alt="ceramica" style="height:200px"/></a>
+            <a href="index.php"><img src="img/logo_text.png" alt="ceramica" style="height:150px"/></a>
         </div>
 
         <div id="product-wrapper">
         
 
-            <nav id="navmenu" class="navmenu ">
+            <nav id="navmenu" class="navmenu ml-5 align-items-end">
                 <ul>
                     <li><a href="index.php" id="navHome" class="nav-item nav-link">Home</a></li>
                     <li><a href="shop.php" id="navShop" class="nav-item nav-link">Shop</a></li>
