@@ -2,11 +2,6 @@
 
 </style>
 
-<!--import "../../assets/vendor/bootstrap/css/bootstrap.min.css";-->
-<!--import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css";-->
-<!--import "../../assets/vendor/glightbox/css/glightbox.min.css";-->
-<!--import "../../assets/vendor/swiper/swiper-bundle.min.css";-->
-<!--import "../../assets/vendor/aos/aos.css";-->
 <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 <link href="css/bootstrap-icons.css" rel="stylesheet">
 <link href="css/glightbox.min.css" rel="stylesheet">
@@ -48,14 +43,15 @@
         </div>
 
         <div id="product-wrapper">
+        
 
             <nav id="navmenu" class="navmenu ">
                 <ul>
-                    <li><a href="index.php" class="nav-link active">Home</a></li>
-                    <li><a href="shop.php" class="">Shop</a></li>
-                    <li><a href="class.php" class="">Classes</a></li>
-                    <li><a href="about_us.php" class="">About Us</a></li>
-                    <li><a href="contact.php" class="">Contact Us</a></li>
+                    <li><a href="index.php" id="navHome" class="nav-item nav-link">Home</a></li>
+                    <li><a href="shop.php" id="navShop" class="nav-item nav-link">Shop</a></li>
+                    <li><a href="class.php" id="navClass" class="nav-item nav-link">Classes</a></li>
+                    <li><a href="about_us.php" id="navAbout" class="nav-item nav-link">About Us</a></li>
+                    <li><a href="contact.php" id="navContact" class="nav-item nav-link">Contact Us</a></li>
                     <li id="cartIcon">
                         <a href="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -285,7 +281,7 @@
             }
 
 
-            if (lastItem === "home.php") {
+            if (lastItem === "index.php") {
                 document.getElementById("navHome").classList.add("active");
 
                 document.getElementById("navContact").classList.remove("active");
