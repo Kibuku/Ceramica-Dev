@@ -25,6 +25,7 @@
     #product_wrapper {
         /*z-index: 10;*/
         position: relative;
+        border-radius: 20px;
 
         padding: 0px;
     }

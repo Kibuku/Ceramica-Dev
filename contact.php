@@ -49,7 +49,7 @@
     width: 100%;
     height: 100%;
     /* background-image: url('/images/35.jpg'); */
-    background:  url("img/back.jpeg");
+    background:  url("img/Africa1.jpeg");
     background-size: cover;
     background-position: center;
     

@@ -42,7 +42,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(270deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/back.jpeg");
+        background: linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
         background-size: cover;
         z-index: inherit;
     }

@@ -58,7 +58,7 @@
         height: 190%;
         z-index: 0;
         /* background-image: url('/images/35.jpg'); */
-        background: linear-gradient(180deg, #0101024D 0%, #010101 54%) 0% 0% no-repeat padding-box, url("img/back.jpeg");
+        background: linear-gradient(180deg, #0101024D 0%, #010101 54%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
         background-size: cover;
 
     }
@@ -104,7 +104,10 @@
         <div id='calendar' class="calender_container"></div>
     </div>
 
-    
+    <button id="openModalBtn" type="button" class="btn btn-primary" data-toggle="modal"
+                    data-target="#exampleModal" data-backdrop="false">
+                Launch demo modal
+    </button>
 
 
     <!-- Modal -->
@@ -129,29 +132,30 @@
                                 <hr>
                                 </p>
                                 <div class="row">
-                                    <div class="col-sm-4">Amount(USD)</div>
+                                    <div class="col-sm-4 text-dark">Amount(USD)</div>
                                     <div class="col-sm">$20</div>
                                 </div>
+                                <br>
                                 <div class="row">
-                                    <div class="col-sm-4">Description</div>
+                                    <div class="col-sm-4 text-dark">Description</div>
                                     <div class="col-sm text-justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                                         when an unknown printer took a galley of type and scrambled it to make a type
                                         specimen book.
-                                        It has survived not only five centuries, but also the leap into electronic
-                                        typesetting, remaining essentially unchanged.
-                                        It was popularised in the 1960s with the release of Letraset sheets containing
-                                        Lorem Ipsum passages, and more recently with desktop publishing software like
-                                        Aldus PageMaker including versions of Lorem Ipsum.
+                                        
                                     </div>
                                 </div>
+                                <br>
                                 <div class="row">
-                                    <div class="col-sm-4">Location</div>
+                                    <div class="col-sm-4 text-dark">Location</div>
                                     <div class="col-sm">Gong road</div>
                                 </div>
+                                <br>
+
+                            
                                 <div class="row">
-                                    <div class="col-sm-4">Number of people</div>
+                                    <div class="col-sm-4 text-dark">Number of people</div>
                                     <div class="col-sm">20</div>
                                 </div>
 
@@ -161,16 +165,16 @@
                                     <b>Personal Details</b>
                                 <hr>
                                 </p>
-                                <div class="form-group">
+                                <div class="form-group">First Name
                                     <input type="text" class="form-control" placeholder="First Name" required>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group">Last Name
                                     <input type="text" class="form-control" placeholder="Last Name" required>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group">Email
                                     <input type="email" class="form-control" placeholder="Email" required>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group">Phone
                                     <input type="tel" class="form-control" placeholder="Phone" pattern='[0-9]{10}'
                                            title='Format: 0701234567' required>
                                 </div>
@@ -181,7 +185,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn">Book appointments</button>
+                    <button type="button" class="btn btn-secondary">Book appointments</button>
                 </div>
             </div>
         </div>
