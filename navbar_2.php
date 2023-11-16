@@ -32,6 +32,22 @@
     .modal-backdrop {
         z-index: 1020;
     }
+    .home-border {
+        padding: 10px;
+        /*width: 5px;*/
+        /*height: 102px;*/
+        border-color:  #CCBAAA;
+        border-top: 2px solid #CCBAAA ;
+        border-left: 2px solid #CCBAAA ;
+        border-right: 2px solid #CCBAAA ;
+        border-radius: 15px;
+        cursor:default;
+        opacity: 1;
+    }
+    .home-border:hover{
+        background-color: #CCBAAA;
+
+    }
 </style>
 
 <header id="header" class="header sticky-top d-flex align-items-center ">
@@ -133,15 +149,15 @@
                                         <div class="row">
                                             <div class="col-lg-6 text-black">Cart Total</div>
                                             <div class="col-lg-6 text-black"> %1000.00</div>
-                                            <div class="col-lg-12 my-1"/>
+                                            <div class="col-lg-12 my-1"></div>
 
                                             <div class="col-lg-6 text-black">Tax</div>
-                                            <div class="col-lg-6 text-black"> %16.5</div>
-                                            <div class="col-lg-12 my-1"/>
+                                            <div class="col-lg-6 text-black"> %16.000</div>
+                                            <div class="col-lg-12 my-1"></div>
 
                                             <div class="col-lg-6 text-black">Delivery</div>
                                             <div class="col-lg-6 text-black"> %5</div>
-                                            <div class="col-lg-12 my-1"/>
+                                            <div class="col-lg-12 my-1"></div>
 
                                             <div class="col-lg-6 text-black">Discount</div>
                                             <div class="col-lg-6 text-black"> -%10</div>
@@ -170,21 +186,21 @@
                                 <br/>
                                 <br/>
                                 <div class="row mt-5">
-                                    <div class="col-lg-6 text-black ml-3"><h2 class="text-black">Grand total</h2></div>
-                                    <div class="col-lg-6 text-black ml-3"><h2 class="text-black">$111.5</h2></div>
+                                    <div class="col-lg-6 text-black ml-4"><h2 class="text-black">Grand total</h2></div>
+                                    <div class="col-lg-6 text-black ml-4"><h2 class="text-black">$111.5</h2></div>
                                 </div>
                                 <h4 class="text-black my-5 ml-3">Complete payment via :</h4>
                                 <div class="ml-3 row justify-content-centre align-items-centre">
                                     <div class="col-lg-3 check-out-item-border py-3 text-uppercase  text-center justify-content-center align-content-center">
-                                        <h6 class="text-dark">mpesa</h6></div>
+                                        <h6 class="text-dark home-border">mpesa</h6></div>
                                     <div class="col-lg-1 mx-1"></div>
                                     <div class="col-lg-3 check-out-item-border py-3 text-uppercase  text-center  justify-content-center align-content-center">
-                                        <h6 class="text-dark">card</h6></div>
+                                        <h6 class="text-dark home-border">card</h6></div>
                                     <div class="col-lg-1 mx-1"></div>
                                     <div class="col-lg-3 check-out-item-border py-3 text-uppercase  text-center justify-content-center align-content-center">
-                                        <h6 class="text-dark">cash</h6></div>
+                                        <h6 class="text-dark home-border">cash</h6></div>
                                 </div>
-                                <div class="my-4"/>
+                                <div class="my-4"></div>
                             </div>
 
 
@@ -193,14 +209,15 @@
 
                     </div>
                     <div class="modal-footer">
-                        <button id="modalCartCloseFooter" type="button" class="btn btn-secondary" data-dismiss="modal">
+                        <button id="modalCartCloseFooter" type="button" class="btn btn-primary" data-dismiss="modal">
                             Close
                         </button>
-                        <button id="modalCartCheckoutFooter" type="button" class="btn">checkout</button>
+                        <button id="modalCartCheckoutFooter" type="button" class="btn btn-primary">checkout</button>
                     </div>
                 </div>
             </div>
         </div>
+        
 
         <script>
             let cartPage = 1;
