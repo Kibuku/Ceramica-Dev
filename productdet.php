@@ -18,15 +18,14 @@
    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
     <!-- Bootstrap core CSS -->
-   <link href="css/styles.css?ver=--><?php //echo date('his'); ?><!--" rel="stylesheet">
-   <link href="css/animate.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">-->
-   <link href="css/owl-carousel.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">-->
-   <link href="css/lightbox.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">-->
-   <link href="css/products.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">-->
-   <link href="css/slick-slider.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">-->
-   <link href="css/loader.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">-->
-   <link href="css/date.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
-</head>
+    <link href="css/styles.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/animate.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/owl-carousel.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/lightbox.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/products.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/slick-slider.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/loader.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+    <link href="css/date.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
 <body>
 <style>
             /* .shop-backdrop {

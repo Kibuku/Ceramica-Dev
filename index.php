@@ -92,6 +92,7 @@
     
   
 </style>
+
         <div>
 
         <?php include 'navbar_2.php'; ?>

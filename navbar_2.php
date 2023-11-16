@@ -105,15 +105,67 @@
                     <div class= "modal-body">
                         <div>
                             <div id="modalCartDetails">
-                                <div id="modalCartClose" class="float-right mb-5">
+                            <div class="cart-wrapper">
+                                <button type="button" class="btn">
+                                    <i class="material-icons">shopping_cart</i>
+                                    <span class="ttcount">1</span>
+                                </button>
+                                <div id="cart-dropdown" class="cart-menu">
+                                    <ul class="w-100 float-left">
+                                        <li>
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            <a href="product_details">
+                                                                <img src="img/products/01.jpg" alt="01" title="01" height="104" width="80">
+                                                            </a>
+                                                        </td>
+                                                        <td class="text-left product-name">
+                                                            <a href="product_details">Greek With Handles</a>
+                                                            <div class="quantity float-left w-100">
+                                                                <span class="cart-qty">1 × </span>
+                                                                <span class="text-left price"> KES 2,150.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center close">
+                                                            <a class="close-cart">
+                                                                <i class="material-icons">close</i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table class="table price mb-30">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-left"><strong>Total</strong></td>
+                                                        <td class="text-right"><strong>KES 2,150.00</strong></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class=" col-lg-12 buttons w-100 float-left align-items-centre justify-content-centre">
+                                            <form action="cart_page">
+                                                <input class=" col-lg-4 pull-left align-items-centre mt_5 home-border w-100 " value="View cart" type="submit">
+                                            </form>
+                                            <form action="checkout_page">
+                                                <input class=" col-lg-4 pull-right align-items-centre mt_5 home-border w-100 " value="Checkout" type="submit">
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <!-- <div id="modalCartClose" class="float-right mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
                                         <path style="fill:black"
                                               d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
                                     </svg>
-                                </div>
-                                <br/>
-                                <br/>
-                                <div class="row">
+                                </div> -->
+                                
+                                <!-- <div class="row">
                                     <div class="col-lg-6">
                                         <div class="row">
                                             <div class="col-lg-2"></div>
@@ -171,11 +223,11 @@
                                             <div class="col-lg-6 text-black"> 1000</div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
 
                             <div id="modalCheckOutDetails">
-                                <div id="modalCheckOutShowCart" class="float-right ">
+                                <!-- <div id="modalCheckOutShowCart" class="float-right ">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
                                         <path style="fill:black"
@@ -183,15 +235,15 @@
                                     </svg>
 
 
-                                </div>
+                                </div> -->
                                 <br/>
                                 <br/>
-                                <div class="row mt-5">
+                                <!-- <div class="row mt-5">
                                     <div class="col-lg-6 text-black ml-4"><h2 class="text-black">Grand total</h2></div>
                                     <div class="col-lg-6 text-black ml-4"><h2 class="text-black">$111.5</h2></div>
-                                </div>
-                                <h4 class="text-black my-5 ml-3">Complete payment via :</h4>
-                                <div class="ml-3 row justify-content-centre align-items-centre">
+                                </div> -->
+                                <!-- <h4 class="text-black my-5 ml-3">Complete payment via :</h4> -->
+                                <!-- <div class="ml-3 row justify-content-centre align-items-centre">
                                     <div class="col-lg-3 check-out-item-border py-3 text-uppercase  text-center justify-content-center align-content-center">
                                         <h6 class="text-dark home-border">mpesa</h6></div>
                                     <div class="col-lg-1 mx-1"></div>
@@ -200,7 +252,7 @@
                                     <div class="col-lg-1 mx-1"></div>
                                     <div class="col-lg-3 check-out-item-border py-3 text-uppercase  text-center justify-content-center align-content-center">
                                         <h6 class="text-dark home-border">cash</h6></div>
-                                </div>
+                                </div> -->
                                 <div class="my-4"></div>
                             </div>
 
@@ -209,12 +261,12 @@
 
 
                     </div>
-                    <div class="modal-footer">
+                    <!-- <div class="modal-footer">
                         <button id="modalCartCloseFooter" type="button" class="btn btn-primary" data-dismiss="modal">
                             Close
                         </button>
                         <button id="modalCartCheckoutFooter" type="button" class="btn btn-primary">checkout</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
