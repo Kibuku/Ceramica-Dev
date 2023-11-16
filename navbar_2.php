@@ -2,7 +2,7 @@
 
 </style>
 
-<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-icons.css" rel="stylesheet">
 <link href="css/glightbox.min.css" rel="stylesheet">
 <link href="css/swiper-bundle.min.css" rel="stylesheet">
@@ -66,10 +66,10 @@
                 <i id="showNav" class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <!-- <button id="openModalBtn2" type="button" class="btn btn-primary" data-toggle="modal"
+            <button id="openModalBtn2" type="button" class="btn btn-primary" data-toggle="modal"
                     data-target="#exampleModal2" data-backdrop="false">
                 Launch demo modal
-            </button> -->
+            </button>
 
 
         </div>
@@ -85,7 +85,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <!-- <div class="modal-body">
+                    <div class= "modal-body">
                         <div>
                             <div id="modalCartDetails">
                                 <div id="modalCartClose" class="float-right mb-5">
@@ -100,7 +100,7 @@
                                     <div class="col-lg-6">
                                         <div class="row">
                                             <div class="col-lg-2"></div>
-                                            <div class="col-lg-8 bg-black preview-box rounded-lg "
+                                            <div class="col-lg-8 bg-success preview-box rounded-lg "
                                                  style="height:200px"></div>
                                             <div class="col-lg-2"></div>
                                             <div class="col-lg-12 my-2 text-brown d-flex justify-content-center align-items-center">
@@ -191,13 +191,13 @@
                         </div>
 
 
-                    </div> -->
-                    <!-- <div class="modal-footer">
+                    </div>
+                    <div class="modal-footer">
                         <button id="modalCartCloseFooter" type="button" class="btn btn-secondary" data-dismiss="modal">
                             Close
                         </button>
                         <button id="modalCartCheckoutFooter" type="button" class="btn">checkout</button>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
