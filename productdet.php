@@ -13,7 +13,7 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-   <link href="vendor/bootstrap/css/bootstrap.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">-->
+   <link href="vendor/bootstrap/css/bootstrap.css?ver=<?php //echo date('his'); ?><!--" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
@@ -47,7 +47,7 @@
     }
     .shop-hero {
         
-        position: absolute; /* Fixed positioning */
+        position: fixed; /* Fixed positioning */
         top: 0;
         left: 0;
         width: 100%;

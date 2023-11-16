@@ -95,13 +95,13 @@
 <div class="home-hero">
     <section style='min-height: calc(100vh - 40px); padding: top 20px;'>
         
-        <div class="cart-area table-area pt-110 pb-95 float-left w-100">
-            <div class="container">
+        <div class="cart-area table-area pt-110 pb-95 float-centre w-100">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-8 col-md-12 col-sm-12 float-left cart-wrapper" style='padding-top:10%;'>
+                    <div class="col-lg-8 col-md-12 col-sm-12 float-centre align-items-centre justify-content-centre cart-wrapper" style='padding-top:10%;'>
                         <div class="table-responsive">
-                            <table class="table product-table text-center text-white">
-                                <thead>
+                            <table class="table product-table align-items-centre text-center text-white">
+                                <thead >
                                     <tr>
                                         <th class="table-remove text-capitalize">remove</th>
                                         <th class="table-image text-capitalize">image</th>

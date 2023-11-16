@@ -40,7 +40,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 150%;
+        height: 180%;
         background: linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
         background-size: cover;
         z-index: inherit;
@@ -93,14 +93,14 @@
 </style>  
 <?php include 'navbar_2.php'; ?>
 <div class="home-hero">
-<section style='min-height: calc(140vh - 10px); padding-top: 10%';>
+<section style='min-height: calc(140vh - 10px); ';>
     
 
-    <div class="checkout-inner float-left w-100">
+    <div class="checkout-inner float-centre w-100">
         <div class="container ">
             <div class="row">
-                <div class="cart-block-left col-md-4 order-md-2 mb-0 " >
-                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <div class="cart-block-left col-md-4 order-md-2 mb-0" style="padding-top: 10%" >
+                    <h4 class="d-flex text-white justify-content-between align-items-center mb-3">
                         <span>Your cart</span>
                     </h4>
                     <div class="list-group mb-3">
@@ -134,7 +134,7 @@
                             </div>
                             <div class="custom-control custom-radio" id="checkbox-card-debit">
                                 <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                                <label class="custom-control-label" for="debit">Debit card</label>
+                                <label class="custom-control-label" for="debit">M-Pesa</label>
                             </div>
                             <div class="col-lg-6 custom-control custom-radio" id="checkbox-card-paypal">
                                 <input id="paypal" name="paymentMethod" type="radio" class=" float-right custom-control-input" required="">
@@ -233,7 +233,7 @@
                         </form> -->
                     </div>
                 </div>
-                <div class="cart-block-right col-md-8 order-md-1" >
+                <div class="cart-block-right text-white col-md-8 order-md-1" style="padding-top: 10%">
                     <h4 class="mb-3">Billing address</h4>
                     <form class="needs-validation" novalidate="">
                         <div class="row">
@@ -266,8 +266,8 @@
                             </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                        <div class="mb-3 text-white">
+                            <label for="email">Email <span class="text-muted ">(Optional)</span></label>
                             <input type="email" class="form-control" id="email" placeholder="you@example.com">
                             <div class="invalid-feedback">
                                 Please enter a valid email address for shipping updates.
@@ -282,8 +282,8 @@
                             </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                        <div class="mb-3 text-white">
+                            <label for="address2">Address 2 <span class="text-muted ">(Optional)</span></label>
                             <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
                         </div>
 
