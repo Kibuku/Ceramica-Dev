@@ -26,6 +26,7 @@
     <link href="css/slick-slider.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
     <link href="css/loader.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
     <link href="css/date.css?ver=<?php echo date('his'); ?>" rel="stylesheet">
+</head>
 <body>
 <style>
             /* .shop-backdrop {
@@ -46,7 +47,7 @@
     }
     .shop-hero {
         
-        position: fixed; /* Fixed positioning */
+        position: absolute; /* Fixed positioning */
         top: 0;
         left: 0;
         width: 100%;

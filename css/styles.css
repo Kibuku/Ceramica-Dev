@@ -2682,7 +2682,7 @@
 
 .form-control:focus,
 .custom-select:focus {
-  border-color: #999999;
+  border-color: #ccbaaa;
   box-shadow: none;
 }
 
@@ -11786,6 +11786,8 @@ body {
   .custom .input-group,
   .custom label{
     margin-top: 0 !important;
+    padding: 20px;
+  
   }
 
   .custom .input-group{

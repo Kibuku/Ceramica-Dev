@@ -36,11 +36,11 @@
     z-index: 1;
     }*/
     .home-hero {
-        position: fixed; /* Fixed positioning */
+        position: absolute; /* Fixed positioning */
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 150%;
         background: linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("img/Africa1.jpeg");
         background-size: cover;
         z-index: inherit;
@@ -93,26 +93,26 @@
 </style>  
 <?php include 'navbar_2.php'; ?>
 <div class="home-hero">
-<section style='min-height: calc(100vh - 40px);'>
+<section style='min-height: calc(140vh - 10px); padding-top: 10%';>
     
 
     <div class="checkout-inner float-left w-100">
         <div class="container ">
             <div class="row">
-                <div class="cart-block-left col-md-4 order-md-2 mb-4 " style='padding-top:5%'>
+                <div class="cart-block-left col-md-4 order-md-2 mb-0 " >
                     <h4 class="d-flex justify-content-between align-items-center mb-3">
                         <span>Your cart</span>
                     </h4>
                     <div class="list-group mb-3">
                         <div class="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
-                                <h6 class="my-0">aliquam quaerat voluptatem</h6>
+                                <h6 class="my-0">Vases</h6>
                             </div>
                             <span class="text-muted" style='white-space: nowrap;'>KES 20</span>
                         </div>
                         <div class="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
-                                <h6 class="my-0">voluptas sit aspernatur</h6>
+                                <h6 class="my-0">VAT</h6>
                             </div>
                             <span class="text-muted" style='white-space: nowrap;'>KES 20</span>
                         </div>
@@ -130,15 +130,15 @@
                         <div class="list-group-item  justify-content-between">
                             <div class="custom-control custom-radio" id="checkbox-card">
                                 <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                                <label class="custom-control-label " for="credit">Credit card</label>
+                                <label class="custom-control-label " for="credit"> Credit card</label>
                             </div>
                             <div class="custom-control custom-radio" id="checkbox-card-debit">
                                 <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
                                 <label class="custom-control-label" for="debit">Debit card</label>
                             </div>
-                            <div class="custom-control custom-radio" id="checkbox-card-paypal">
-                                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                                <label class="custom-control-label" for="paypal">Paypal</label>
+                            <div class="col-lg-6 custom-control custom-radio" id="checkbox-card-paypal">
+                                <input id="paypal" name="paymentMethod" type="radio" class=" float-right custom-control-input" required="">
+                                <label class="custom-control-label float-left" for="paypal">Paypal</label>
                             </div>
                         </div>
                         <div id="card-dropdown">
@@ -233,7 +233,7 @@
                         </form> -->
                     </div>
                 </div>
-                <div class="cart-block-right col-md-8 order-md-1" style='padding-top:5%'>
+                <div class="cart-block-right col-md-8 order-md-1" >
                     <h4 class="mb-3">Billing address</h4>
                     <form class="needs-validation" novalidate="">
                         <div class="row">
@@ -429,5 +429,7 @@
     </div>
 </section>
 </div>
+
+
 </body>
 </html>
